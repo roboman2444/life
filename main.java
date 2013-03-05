@@ -37,8 +37,8 @@ public class main extends JFrame implements ActionListener, KeyListener, MouseLi
 		this.setVisible(true);
 		this.createBufferStrategy(2);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		System.out.println("yo, type your x");						//get the height and width
-		System.out.println("yo, type your y");
+//		System.out.println("yo, type your x");						//get the height and width
+//		System.out.println("yo, type your y");
 		dbuf = this.getBufferStrategy();
 		addKeyListener(this);
 		addMouseListener(this);
@@ -132,37 +132,37 @@ public class main extends JFrame implements ActionListener, KeyListener, MouseLi
 	}
 	@Override
 	public void mousePressed(MouseEvent e) {
-		if(rendx==xin&&rendy==yin&&startx==0&&starty==0){
+/*		if(rendx==xin&&rendy==yin&&startx==0&&starty==0){
 			zstartx = e.getX();
 			zstarty=e.getY();
-		}
-		else{
+		}else{
 		}
 		// TODO Auto-generated method stub
+*/
 
 	}
 	@Override
 	public void mouseReleased(MouseEvent e) {
+/*
 		if(rendx==xin&&rendy==yin&&startx==0&&starty==0){
 			zendx = e.getX();
 			zendy=e.getY();
+		}else{
 		}
-		else{
-		}
+*/
 		// TODO Auto-generated method stub
 	}
 	@Override
 	public void mouseDragged(MouseEvent e) {
 		// TODO Auto-generated method stub
-		//if (menuup){
-		//	m.b.setRGB(e.getX(), e.getY(),-1);
-		//	m.a.setRGB(e.getX(), e.getY(),-1);
-		//}
+		/*if (menuup){
+			m.b.setRGB(e.getX(), e.getY(),-1);
+			m.a.setRGB(e.getX(), e.getY(),-1);
+		}*/
 	}
 	@Override
 	public void mouseMoved(MouseEvent e) {
 		// TODO Auto-generated method stub
-		
 	}
 
 }
