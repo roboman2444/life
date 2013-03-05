@@ -6,24 +6,18 @@ public class menu {
 	public static void menu(){
 	}
 	public static void save(){
-		
 	}
 	public static void load(){
-		
 	}
 	public void editor(){
-		
 	}
 	public static void go(){
 		callback.menuup=false;
 	}
 	public static void random(){
-		
 	}
 	public static void step(){
-		
 	}
 	public static void delay(){
-		
 	}
 }

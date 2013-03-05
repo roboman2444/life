@@ -18,9 +18,7 @@ public class math {
 		if(callback.tempbool){
 			//System.out.println("a at"+ x +y);
 			return(a.getRGB(x, y)==-16777216);
-			
-		}
-		else{
+		}else{
 			//System.out.println("b at"+ x +y);
 			return(b.getRGB(x, y)==-16777216);
 		}
@@ -44,13 +42,11 @@ public class math {
 					if(near<2 || near>3)b.setRGB(x, y,-1);
 					else if(near==3)b.setRGB(x, y,-16777216);
 					else if(near==2)b.setRGB(x, y,a.getRGB(x, y));
-				}
-				else{
+				}else{
 					if(near<2 || near>3)a.setRGB(x, y,-1);
 					else if(near==3)a.setRGB(x, y,-16777216);
 					else if(near==2)a.setRGB(x, y,b.getRGB(x, y));
 				}
-				
 			}
 		}
 	}

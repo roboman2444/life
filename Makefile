@@ -1,5 +1,5 @@
 all:
-	echo uncomment line 31 in math.jar to see the threads
+	echo uncomment line 29 in math.jar to see the threads
 	javac *.java
 	jar cfm life.jar Manifest *.class
 clean:
